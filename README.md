@@ -1,7 +1,9 @@
 # Influência do pré-processamento e da segmentação na precisão de descritores em imagens dermatoscópicas
 
 **Autora:** Ana Júlia Campos Vieira
+
 **Orientadora:** Profa. Dra. Glenda Michele Botelho
+
 **Curso:** Ciência da Computação – UFT, 2026
 
 O trabalho avalia como a escolha das técnicas de pré-processamento e de segmentação altera os valores de descritores extraídos de imagens dermatoscópicas. Para isso, as 2.594 imagens da Task 1 da base **ISIC 2018** passam por 12 configurações de processamento, e a estabilidade (precisão) e a exatidão de 42 descritores são medidas pelo Coeficiente de Correlação Intraclasse (ICC).
