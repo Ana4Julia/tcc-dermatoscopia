@@ -1,0 +1,21 @@
+# Ambiente virtual e cache do Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Imagens da base ISIC 2018 e tudo o que é gerado a partir delas
+data/raw/
+data/processed/
+data/segmentation/
+
+# Arquivos temporários
+*.tmp.png
+*.log
+.ipynb_checkpoints/
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

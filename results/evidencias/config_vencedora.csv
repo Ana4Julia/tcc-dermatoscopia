@@ -1,0 +1,13 @@
+config,pct_imagens_vencedora
+sem_tratamento|otsu,7.671549730146492
+sem_tratamento|kmeans,4.240555127216654
+sem_tratamento|snakes,9.252120277563609
+dullrazor_bilateral|otsu,10.755589822667694
+dullrazor_bilateral|kmeans,13.762528912875867
+dullrazor_bilateral|snakes,18.041634541249035
+clahe|otsu,7.363145720894372
+clahe|kmeans,2.351580570547417
+clahe|snakes,5.66692367000771
+dullrazor_bilateral_clahe|otsu,9.56052428681573
+dullrazor_bilateral_clahe|kmeans,5.8982266769468
+dullrazor_bilateral_clahe|snakes,5.43562066306862

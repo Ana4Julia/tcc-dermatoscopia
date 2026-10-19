@@ -1,0 +1,43 @@
+categoria,descritor,concordancia_absoluta_icc,concordancia_absoluta_ic95_inf,concordancia_absoluta_ic95_sup,concordancia_absoluta_classe,consistencia_icc,consistencia_ic95_inf,consistencia_ic95_sup,consistencia_classe
+colorimétrico,cor_B_assimetria,0.2512206173166199,0.21,0.29,fraca,0.3095016096218688,0.3,0.32,fraca
+colorimétrico,cor_B_curtose,0.21899618345265642,0.2,0.23,fraca,0.23002544298629016,0.22,0.24,fraca
+colorimétrico,cor_B_desvio,0.36196259985098883,0.26,0.45,fraca,0.5290201250495582,0.51,0.54,moderada
+colorimétrico,cor_B_media,0.4334434435047673,0.31,0.54,fraca a moderada,0.6302233398174664,0.62,0.64,moderada
+colorimétrico,cor_G_assimetria,0.23234975811388006,0.19,0.27,fraca,0.28477963518386595,0.27,0.3,fraca
+colorimétrico,cor_G_curtose,0.20548017022385015,0.19,0.22,fraca,0.22005015977685813,0.21,0.23,fraca
+colorimétrico,cor_G_desvio,0.46764412285875107,0.37,0.55,fraca a moderada,0.6130989182153719,0.6,0.63,moderada
+colorimétrico,cor_G_media,0.45362211803521846,0.32,0.56,fraca a moderada,0.657744958664286,0.64,0.67,moderada
+colorimétrico,cor_L_assimetria,0.21795338733346,0.19,0.25,fraca,0.2613226409177097,0.25,0.28,fraca
+colorimétrico,cor_L_curtose,0.1974888899903445,0.18,0.21,fraca,0.20831947039078713,0.2,0.22,fraca
+colorimétrico,cor_L_desvio,0.5391706825263506,0.44,0.62,fraca a moderada,0.667495655962644,0.65,0.68,moderada
+colorimétrico,cor_L_media,0.4518357338357914,0.33,0.55,fraca a moderada,0.6401964265600973,0.63,0.65,moderada
+colorimétrico,cor_R_assimetria,0.20368041011302646,0.17,0.24,fraca,0.2459532855992711,0.23,0.26,fraca
+colorimétrico,cor_R_curtose,0.16343253192200774,0.15,0.18,fraca,0.17918192749318687,0.17,0.19,fraca
+colorimétrico,cor_R_desvio,0.6230581620435067,0.55,0.68,moderada,0.7112470540051541,0.7,0.72,moderada
+colorimétrico,cor_R_media,0.5365185397832632,0.44,0.62,fraca a moderada,0.6650419489841813,0.65,0.68,moderada
+colorimétrico,cor_S_assimetria,0.24597893312343913,0.19,0.3,fraca,0.34302167219662777,0.33,0.36,fraca
+colorimétrico,cor_S_curtose,0.2042806695106812,0.18,0.23,fraca,0.22717276154746202,0.21,0.24,fraca
+colorimétrico,cor_S_desvio,0.48117002054909325,0.4,0.55,fraca a moderada,0.5834656524086295,0.57,0.6,moderada
+colorimétrico,cor_S_media,0.5695059280655527,0.46,0.66,fraca a moderada,0.7163755902997752,0.7,0.73,moderada
+colorimétrico,cor_V_assimetria,0.1983433875894729,0.17,0.23,fraca,0.236248243055531,0.22,0.25,fraca
+colorimétrico,cor_V_curtose,0.16207668043074266,0.15,0.18,fraca,0.17769560207519064,0.17,0.19,fraca
+colorimétrico,cor_V_desvio,0.6445317488606909,0.57,0.71,moderada,0.7362448687955392,0.72,0.75,moderada a boa
+colorimétrico,cor_V_media,0.5425671244664108,0.44,0.62,fraca a moderada,0.6737536035271855,0.66,0.69,moderada
+colorimétrico,cor_a_assimetria,0.31462329695787694,0.27,0.36,fraca,0.3780327372551085,0.36,0.39,fraca
+colorimétrico,cor_a_curtose,0.27026361969499046,0.25,0.29,fraca,0.2912665477161266,0.28,0.31,fraca
+colorimétrico,cor_a_desvio,0.5748121394225862,0.53,0.61,moderada,0.62062038184034,0.61,0.63,moderada
+colorimétrico,cor_a_media,0.7496214019016751,0.7,0.79,moderada a boa,0.8050770015799904,0.8,0.81,boa
+colorimétrico,cor_b_assimetria,0.31260593086147204,0.28,0.34,fraca,0.3463960097407349,0.33,0.36,fraca
+colorimétrico,cor_b_curtose,0.30108373563589613,0.29,0.32,fraca,0.30950548397680017,0.3,0.32,fraca
+colorimétrico,cor_b_desvio,0.54472645984843,0.51,0.58,moderada,0.5887560204908923,0.57,0.6,moderada
+colorimétrico,cor_b_media,0.70246738287676,0.68,0.73,moderada,0.7297119830394034,0.72,0.74,moderada
+geométrico,geo_area_px,0.2593959209789877,0.15,0.36,fraca,0.5166951820904105,0.5,0.53,moderada
+geométrico,geo_assimetria,0.25975984538837227,0.19,0.33,fraca,0.38965295489797813,0.37,0.41,fraca
+geométrico,geo_circularidade,0.06986143099589158,0.03,0.12,fraca,0.3616316473357062,0.35,0.38,fraca
+geométrico,geo_diametro_circulo,0.3944973620361756,0.32,0.46,fraca,0.4970843615523838,0.48,0.51,fraca a moderada
+geométrico,geo_diametro_feret,0.39273053017152737,0.32,0.46,fraca,0.496504581973695,0.48,0.51,fraca a moderada
+textura,tex_contraste,0.13248533753242062,0.11,0.16,fraca,0.1734040351465748,0.16,0.19,fraca
+textura,tex_correlacao,0.19068975316641806,0.16,0.22,fraca,0.22483166402635343,0.21,0.24,fraca
+textura,tex_energia,0.277562879484103,0.18,0.37,fraca,0.47344066750648856,0.46,0.49,fraca
+textura,tex_entropia,0.24413345881686943,0.13,0.36,fraca,0.5706947202630934,0.56,0.59,moderada
+textura,tex_homogeneidade,0.06528380140828609,0.03,0.11,fraca,0.2869538721908767,0.27,0.3,fraca

@@ -1,0 +1,30 @@
+preprocessamento  ISIC_0000205  pelos=20.0%
+    sem_tratamento              Otsu=0.75  K-Means=0.77  Snakes=0.80
+    dullrazor_bilateral         Otsu=0.75  K-Means=0.76  Snakes=0.71
+    clahe                       Otsu=0.79  K-Means=0.79  Snakes=0.88
+    dullrazor_bilateral_clahe   Otsu=0.79  K-Means=0.79  Snakes=0.79
+mascaras          ISIC_0012880  pelos=4.6%
+    sem_tratamento              Otsu=0.98  K-Means=0.97  Snakes=0.15
+    dullrazor_bilateral         Otsu=0.96  K-Means=0.94  Snakes=0.00
+    clahe                       Otsu=0.00  K-Means=0.00  Snakes=0.12
+    dullrazor_bilateral_clahe   Otsu=0.00  K-Means=0.00  Snakes=0.13
+acerto            ISIC_0000075  pelos=13.3%
+    sem_tratamento              Otsu=0.94  K-Means=0.94  Snakes=0.93
+    dullrazor_bilateral         Otsu=0.94  K-Means=0.94  Snakes=0.93
+    clahe                       Otsu=0.97  K-Means=0.97  Snakes=0.92
+    dullrazor_bilateral_clahe   Otsu=0.97  K-Means=0.97  Snakes=0.89
+falha             ISIC_0012179  pelos=22.4%
+    sem_tratamento              Otsu=0.00  K-Means=0.00  Snakes=0.01
+    dullrazor_bilateral         Otsu=0.00  K-Means=0.00  Snakes=0.01
+    clahe                       Otsu=0.00  K-Means=0.00  Snakes=0.01
+    dullrazor_bilateral_clahe   Otsu=0.00  K-Means=0.00  Snakes=0.01
+falha_snakes      ISIC_0016038  pelos=2.6%
+    sem_tratamento              Otsu=0.87  K-Means=0.87  Snakes=0.06
+    dullrazor_bilateral         Otsu=0.89  K-Means=0.89  Snakes=0.18
+    clahe                       Otsu=0.95  K-Means=0.94  Snakes=0.03
+    dullrazor_bilateral_clahe   Otsu=0.95  K-Means=0.94  Snakes=0.04
+pelos             ISIC_0008207  pelos=43.2%
+    sem_tratamento              Otsu=0.05  K-Means=0.04  Snakes=0.06
+    dullrazor_bilateral         Otsu=0.88  K-Means=0.04  Snakes=0.24
+    clahe                       Otsu=0.05  K-Means=0.04  Snakes=0.06
+    dullrazor_bilateral_clahe   Otsu=0.85  K-Means=0.04  Snakes=0.07

@@ -1,0 +1,48 @@
+{
+  "redimensionamento": {
+    "lado_maximo_px": 1024,
+    "interpolacao_imagem": "INTER_AREA",
+    "interpolacao_mascara": "INTER_NEAREST"
+  },
+  "dullrazor": {
+    "lado_referencia_px": 600,
+    "tamanho_linha_px": 9,
+    "direcoes_graus": [
+      0,
+      45,
+      90
+    ],
+    "kernel_gauss": [
+      3,
+      3
+    ],
+    "limiar": 10,
+    "raio_inpaint_px": 6,
+    "metodo_inpaint": "TELEA",
+    "kernel_dilatacao_px": 3,
+    "kernel_mediana_px": 5,
+    "escalados_pela_resolucao": [
+      "tamanho_linha_px",
+      "kernel_dilatacao_px"
+    ]
+  },
+  "bilateral": {
+    "espaco_cor": "CIE-Lab",
+    "diametro_px": 9,
+    "sigma_d": 75,
+    "sigma_r": 75
+  },
+  "clahe": {
+    "espaco_cor": "CIE-Lab (apenas canal L*)",
+    "limite_recorte": 2.0,
+    "grade": [
+      8,
+      8
+    ]
+  },
+  "versoes": {
+    "python": "3.10.12",
+    "opencv": "4.11.0",
+    "numpy": "1.26.4"
+  }
+}

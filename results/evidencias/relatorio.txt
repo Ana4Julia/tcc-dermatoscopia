@@ -1,0 +1,115 @@
+2594 imagens com Jaccard
+
+1. TESTES SOBRE O ÍNDICE DE JACCARD
+   Friedman (12 configurações, 2594 imagens): chi2 = 2151.2, p < 0,001, W de Kendall = 0.075
+   Wilcoxon pareado (p corrigido por Holm; r = rank-biserial; % = imagens em que A é melhor / B é melhor):
+     dullrazor_bilateral|otsu           x sem_tratamento|otsu            dif. média +0.034 | A melhor 53.9% | B melhor 34.9% | r = +0.35 | p < 0,001
+     clahe|otsu                         x sem_tratamento|otsu            dif. média -0.017 | A melhor 39.8% | B melhor 51.2% | r = -0.16 | p < 0,001
+     dullrazor_bilateral_clahe|otsu     x sem_tratamento|otsu            dif. média +0.026 | A melhor 48.6% | B melhor 43.6% | r = +0.10 | p < 0,001
+     dullrazor_bilateral_clahe|otsu     x dullrazor_bilateral|otsu       dif. média -0.008 | A melhor 41.0% | B melhor 50.5% | r = -0.13 | p < 0,001
+     dullrazor_bilateral|kmeans         x sem_tratamento|kmeans          dif. média +0.029 | A melhor 54.6% | B melhor 33.9% | r = +0.37 | p < 0,001
+     clahe|kmeans                       x sem_tratamento|kmeans          dif. média -0.011 | A melhor 36.5% | B melhor 54.2% | r = -0.20 | p < 0,001
+     dullrazor_bilateral_clahe|kmeans   x sem_tratamento|kmeans          dif. média +0.027 | A melhor 45.0% | B melhor 46.9% | r = +0.05 | p 0,033
+     dullrazor_bilateral_clahe|kmeans   x dullrazor_bilateral|kmeans     dif. média -0.002 | A melhor 37.6% | B melhor 53.9% | r = -0.19 | p < 0,001
+     dullrazor_bilateral|snakes         x sem_tratamento|snakes          dif. média +0.100 | A melhor 69.9% | B melhor 30.0% | r = +0.51 | p < 0,001
+     clahe|snakes                       x sem_tratamento|snakes          dif. média -0.074 | A melhor 13.2% | B melhor 86.8% | r = -0.75 | p < 0,001
+     dullrazor_bilateral_clahe|snakes   x sem_tratamento|snakes          dif. média -0.051 | A melhor 24.7% | B melhor 75.3% | r = -0.59 | p < 0,001
+     dullrazor_bilateral_clahe|snakes   x dullrazor_bilateral|snakes     dif. média -0.151 | A melhor 22.7% | B melhor 77.3% | r = -0.64 | p < 0,001
+     sem_tratamento|otsu                x sem_tratamento|kmeans          dif. média +0.007 | A melhor 40.7% | B melhor 46.9% | r = -0.08 | p 0,002
+     sem_tratamento|otsu                x sem_tratamento|snakes          dif. média +0.148 | A melhor 57.7% | B melhor 42.0% | r = +0.39 | p < 0,001
+     sem_tratamento|kmeans              x sem_tratamento|snakes          dif. média +0.141 | A melhor 56.3% | B melhor 43.4% | r = +0.37 | p < 0,001
+     dullrazor_bilateral|otsu           x dullrazor_bilateral|kmeans     dif. média +0.012 | A melhor 40.4% | B melhor 47.7% | r = -0.09 | p < 0,001
+     dullrazor_bilateral|otsu           x dullrazor_bilateral|snakes     dif. média +0.082 | A melhor 59.9% | B melhor 39.2% | r = +0.30 | p < 0,001
+     dullrazor_bilateral|kmeans         x dullrazor_bilateral|snakes     dif. média +0.070 | A melhor 58.7% | B melhor 40.5% | r = +0.26 | p < 0,001
+     clahe|otsu                         x clahe|kmeans                   dif. média +0.000 | A melhor 49.4% | B melhor 38.4% | r = +0.17 | p < 0,001
+     clahe|otsu                         x clahe|snakes                   dif. média +0.204 | A melhor 63.8% | B melhor 36.2% | r = +0.55 | p < 0,001
+     clahe|kmeans                       x clahe|snakes                   dif. média +0.204 | A melhor 64.0% | B melhor 36.0% | r = +0.55 | p < 0,001
+     dullrazor_bilateral_clahe|otsu     x dullrazor_bilateral_clahe|kmeans dif. média +0.006 | A melhor 51.9% | B melhor 36.4% | r = +0.22 | p < 0,001
+     dullrazor_bilateral_clahe|otsu     x dullrazor_bilateral_clahe|snakes dif. média +0.225 | A melhor 66.2% | B melhor 33.8% | r = +0.60 | p < 0,001
+     dullrazor_bilateral_clahe|kmeans   x dullrazor_bilateral_clahe|snakes dif. média +0.219 | A melhor 65.1% | B melhor 34.8% | r = +0.58 | p < 0,001
+
+2. FALHAS DE SEGMENTAÇÃO
+   sem_tratamento|otsu                J<0,5:  37.0% | J<0,1:  17.9% | J>=0,8:  23.4%
+   sem_tratamento|kmeans              J<0,5:  37.7% | J<0,1:  19.6% | J>=0,8:  23.1%
+   sem_tratamento|snakes              J<0,5:  62.8% | J<0,1:  18.4% | J>=0,8:   6.5%
+   dullrazor_bilateral|otsu           J<0,5:  31.0% | J<0,1:  15.7% | J>=0,8:  27.2%
+   dullrazor_bilateral|kmeans         J<0,5:  32.5% | J<0,1:  18.0% | J>=0,8:  26.2%
+   dullrazor_bilateral|snakes         J<0,5:  48.1% | J<0,1:   8.2% | J>=0,8:   8.9%
+   clahe|otsu                         J<0,5:  39.4% | J<0,1:  17.2% | J>=0,8:  20.0%
+   clahe|kmeans                       J<0,5:  39.3% | J<0,1:  17.4% | J>=0,8:  19.8%
+   clahe|snakes                       J<0,5:  73.2% | J<0,1:  28.8% | J>=0,8:   3.6%
+   dullrazor_bilateral_clahe|otsu     J<0,5:  32.4% | J<0,1:  14.9% | J>=0,8:  24.1%
+   dullrazor_bilateral_clahe|kmeans   J<0,5:  33.0% | J<0,1:  15.6% | J>=0,8:  23.4%
+   dullrazor_bilateral_clahe|snakes   J<0,5:  69.9% | J<0,1:  24.6% | J>=0,8:   3.9%
+   Imagens em que NENHUMA das 12 configurações chega a J>=0,5: 338 (13.0%)
+   Imagens em que TODAS as 12 chegam a J>=0,5: 376 (14.5%)
+   Jaccard médio escolhendo a melhor configuração de cada imagem: 0.710 (mediana 0.766)
+   Configuração com maior Jaccard em cada imagem (% das imagens):
+     sem_tratamento|otsu                  7.7%
+     sem_tratamento|kmeans                4.2%
+     sem_tratamento|snakes                9.3%
+     dullrazor_bilateral|otsu            10.8%
+     dullrazor_bilateral|kmeans          13.8%
+     dullrazor_bilateral|snakes          18.0%
+     clahe|otsu                           7.4%
+     clahe|kmeans                         2.4%
+     clahe|snakes                         5.7%
+     dullrazor_bilateral_clahe|otsu       9.6%
+     dullrazor_bilateral_clahe|kmeans     5.9%
+     dullrazor_bilateral_clahe|snakes     5.4%
+
+3. ÁREA SEGMENTADA / ÁREA DO PADRÃO-OURO
+   (sobressegmentada: área > 1,25 x padrão-ouro; subsegmentada: área < 0,8 x padrão-ouro)
+   sem_tratamento|otsu                razão mediana  0.78 | sobre  16.3% | sub  53.8%
+   sem_tratamento|kmeans              razão mediana  0.78 | sobre  17.6% | sub  53.0%
+   sem_tratamento|snakes              razão mediana  2.58 | sobre  71.2% | sub  11.3%
+   dullrazor_bilateral|otsu           razão mediana  0.77 | sobre  14.3% | sub  54.0%
+   dullrazor_bilateral|kmeans         razão mediana  0.78 | sobre  16.3% | sub  53.0%
+   dullrazor_bilateral|snakes         razão mediana  0.92 | sobre  39.5% | sub  39.1%
+   clahe|otsu                         razão mediana  0.81 | sobre  22.9% | sub  48.4%
+   clahe|kmeans                       razão mediana  0.80 | sobre  21.8% | sub  50.6%
+   clahe|snakes                       razão mediana  4.32 | sobre  86.8% | sub   3.0%
+   dullrazor_bilateral_clahe|otsu     razão mediana  0.78 | sobre  16.5% | sub  54.2%
+   dullrazor_bilateral_clahe|kmeans   razão mediana  0.78 | sobre  17.0% | sub  54.4%
+   dullrazor_bilateral_clahe|snakes   razão mediana  3.80 | sobre  83.0% | sub   4.4%
+
+4. % DE PELOS x JACCARD (Spearman)
+   % de pelos: mediana 6.4 | P90 20.1 | máx 70.3 | > 30%: 67 imagens
+   sem_tratamento|otsu                rho = -0.033 (p 0,091)
+   sem_tratamento|kmeans              rho = -0.067 (p < 0,001)
+   sem_tratamento|snakes              rho = -0.015 (p 0,450)
+   dullrazor_bilateral|otsu           rho = -0.001 (p 0,954)
+   dullrazor_bilateral|kmeans         rho = -0.033 (p 0,088)
+   dullrazor_bilateral|snakes         rho = -0.061 (p 0,002)
+   clahe|otsu                         rho = -0.112 (p < 0,001)
+   clahe|kmeans                       rho = -0.119 (p < 0,001)
+   clahe|snakes                       rho = +0.179 (p < 0,001)
+   dullrazor_bilateral_clahe|otsu     rho = -0.020 (p 0,310)
+   dullrazor_bilateral_clahe|kmeans   rho = -0.041 (p 0,038)
+   dullrazor_bilateral_clahe|snakes   rho = +0.141 (p < 0,001)
+
+5. TAMANHO DA LESÃO x JACCARD
+   Lesão ocupa (% da imagem): mediana 13.8 | P10 2.5 | P90 52.2
+   Jaccard médio por faixa de área da lesão:
+config  n_imagens  sem_tratamento|otsu  sem_tratamento|snakes  dullrazor_bilateral|otsu  dullrazor_bilateral|snakes  clahe|snakes
+< 5%          624                0.432                  0.098                     0.460                       0.277         0.047
+5-15%         730                0.494                  0.258                     0.558                       0.439         0.156
+15-30%        540                0.627                  0.512                     0.653                       0.628         0.371
+30-50%        406                0.608                  0.673                     0.629                       0.653         0.614
+> 50%         294                0.581                  0.691                     0.591                       0.562         0.744
+
+6. MEDIANA DE DESCRITORES POR CONFIGURAÇÃO (deslocamento sistemático)
+                                  geo_area_px  geo_circularidade  geo_assimetria  cor_L_media  cor_a_media  cor_b_media  cor_S_media  tex_contraste  tex_homogeneidade  tex_energia  tex_entropia
+config                                                                                                                                                                                           
+sem_tratamento|otsu                   93641.5              0.129           0.279       45.383       18.293       19.543        0.506          1.415              0.682        0.143         6.232
+sem_tratamento|kmeans                 97735.0              0.145           0.272       45.544       17.978       19.224        0.501          1.424              0.681        0.141         6.247
+sem_tratamento|snakes                301064.0              0.945           0.057       58.980       12.295       14.214        0.329          1.421              0.751        0.181         5.887
+dullrazor_bilateral|otsu              89868.5              0.479           0.233       46.904       17.932       19.818        0.495          0.234              0.887        0.223         4.866
+dullrazor_bilateral|kmeans            95820.5              0.507           0.230       47.078       17.576       19.343        0.485          0.233              0.887        0.223         4.885
+dullrazor_bilateral|snakes           143242.0              0.949           0.081       54.381       15.134       17.787        0.405          0.193              0.906        0.226         4.952
+clahe|otsu                            98685.0              0.066           0.393       44.142       17.700       19.398        0.519          4.677              0.500        0.085         7.671
+clahe|kmeans                          96650.5              0.074           0.382       43.723       17.776       19.398        0.523          4.640              0.500        0.085         7.666
+clahe|snakes                         434102.0              0.945           0.024       61.537       10.580       12.414        0.291          3.926              0.561        0.106         7.380
+dullrazor_bilateral_clahe|otsu        87107.5              0.269           0.316       43.805       17.745       20.031        0.524          0.532              0.784        0.145         6.048
+dullrazor_bilateral_clahe|kmeans      88793.5              0.295           0.311       43.571       17.722       19.841        0.524          0.532              0.783        0.145         6.052
+dullrazor_bilateral_clahe|snakes     404273.0              0.951           0.036       61.238       10.924       12.825        0.298          0.397              0.827        0.171         5.854

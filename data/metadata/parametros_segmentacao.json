@@ -1,0 +1,53 @@
+{
+  "moldura_dermatoscopio": {
+    "limiar_cinza": 60,
+    "area_minima": 0.01,
+    "fracao_erosao": 0.02,
+    "cantos_minimos": 2,
+    "fracao_canto": 0.03,
+    "fracao_margem": 0.02,
+    "sombra": {
+      "largura_max": 0.1,
+      "anel_px": 4,
+      "fracao_plato": 0.9
+    },
+    "filtro_mediana": 5,
+    "tratamento": "excluída do Otsu/K-Means; neutralizada no Snakes"
+  },
+  "pos_processamento": {
+    "selecao_regiao": "maior (área x centralidade)",
+    "preenchimento_buracos": true
+  },
+  "otsu": {
+    "espaco_cor": "níveis de cinza",
+    "limiarizacao": "invertida"
+  },
+  "kmeans": {
+    "espaco_cor": "CIE-Lab",
+    "k": 2,
+    "inicializacao": "K-Means++",
+    "tentativas": 10,
+    "max_iteracoes": 50,
+    "epsilon": 0.2,
+    "semente": 42,
+    "grupo_lesao": "menor L*"
+  },
+  "snakes": {
+    "sigma_gauss": 3.0,
+    "n_pontos": 400,
+    "inicializacao": "elipse inscrita no campo de visão",
+    "fracao_eixos": 0.9,
+    "alfa": 0.015,
+    "beta": 10.0,
+    "gama": 0.001,
+    "w_linha": 0.0,
+    "w_borda": 10.0,
+    "max_iteracoes": 2500
+  },
+  "versoes": {
+    "python": "3.10.12",
+    "opencv": "5.0.0",
+    "numpy": "2.2.6",
+    "scikit-image": "0.25.2"
+  }
+}
