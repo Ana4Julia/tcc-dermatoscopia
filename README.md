@@ -37,7 +37,7 @@ Os resultados completos estão na pasta [`results/`](results/) e no texto do TCC
 ## Estrutura do repositório
 
 ```
-tcc_anajulia/
+tcc-dermatoscopia/
 ├── src/
 │   ├── pipeline.py                  # 1. pré-processamento (4 versões de cada imagem)
 │   ├── pipeline_segmentacao.py      # 2. segmentação (12 máscaras) + Jaccard e Dice
@@ -67,8 +67,8 @@ As imagens da ISIC e os arquivos gerados a partir delas não estão no repositó
 Testado com Python 3.10 no Ubuntu.
 
 ```bash
-git clone https://github.com/<usuario>/<repositorio>.git
-cd <repositorio>
+git clone https://github.com/Ana4Julia/tcc-dermatoscopia.git
+cd tcc-dermatoscopia
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
