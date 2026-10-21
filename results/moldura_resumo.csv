@@ -1,0 +1,5 @@
+pre_processamento,imagens_com_moldura,pct_com_moldura,fracao_excluida_mediana,imagens_com_deteccao_diferente
+sem_tratamento,197,7.594448727833463,0.08635738084890628,0
+dullrazor_bilateral,185,7.131842713955281,0.08893776295680172,132
+clahe,211,8.134155744024673,0.11258012820512821,208
+dullrazor_bilateral_clahe,211,8.134155744024673,0.11338321461397059,216

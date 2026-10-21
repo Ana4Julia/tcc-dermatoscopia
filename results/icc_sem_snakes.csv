@@ -1,0 +1,169 @@
+analise,descritor,categoria,n_imagens,tipo,icc,ic95_inf,ic95_sup,classe
+principal,geo_area_px,geométrico,2594,concordancia_absoluta,0.7138002351838437,0.7,0.73,moderada
+principal,geo_area_px,geométrico,2594,consistencia,0.7163744374649308,0.7,0.73,moderada
+jaccard_05,geo_area_px,geométrico,1306,concordancia_absoluta,0.9854140028815185,0.98,0.99,excelente
+jaccard_05,geo_area_px,geométrico,1306,consistencia,0.9855630270709587,0.98,0.99,excelente
+principal,geo_assimetria,geométrico,2594,concordancia_absoluta,0.5905866160286348,0.55,0.62,moderada
+principal,geo_assimetria,geométrico,2594,consistencia,0.6226622119508686,0.61,0.64,moderada
+jaccard_05,geo_assimetria,geométrico,1306,concordancia_absoluta,0.6674776397011783,0.59,0.73,moderada
+jaccard_05,geo_assimetria,geométrico,1306,consistencia,0.7376936472686277,0.72,0.75,moderada a boa
+principal,geo_circularidade,geométrico,2594,concordancia_absoluta,0.4150106780286166,0.25,0.55,fraca a moderada
+principal,geo_circularidade,geométrico,2594,consistencia,0.6333117586630765,0.62,0.65,moderada
+jaccard_05,geo_circularidade,geométrico,1306,concordancia_absoluta,0.4019087875672139,0.18,0.58,fraca a moderada
+jaccard_05,geo_circularidade,geométrico,1306,consistencia,0.7914826494928979,0.78,0.81,boa
+principal,geo_diametro_circulo,geométrico,2594,concordancia_absoluta,0.6815820538757821,0.66,0.7,moderada
+principal,geo_diametro_circulo,geométrico,2594,consistencia,0.6983525190558952,0.69,0.71,moderada
+jaccard_05,geo_diametro_circulo,geométrico,1306,concordancia_absoluta,0.9225361972100851,0.91,0.94,excelente
+jaccard_05,geo_diametro_circulo,geométrico,1306,consistencia,0.9353590393963508,0.93,0.94,excelente
+principal,geo_diametro_feret,geométrico,2594,concordancia_absoluta,0.6807506250770691,0.66,0.7,moderada
+principal,geo_diametro_feret,geométrico,2594,consistencia,0.697354217572244,0.68,0.71,moderada
+jaccard_05,geo_diametro_feret,geométrico,1306,concordancia_absoluta,0.922615583407478,0.91,0.94,excelente
+jaccard_05,geo_diametro_feret,geométrico,1306,consistencia,0.9353243856878739,0.93,0.94,excelente
+principal,cor_R_media,colorimétrico,2594,concordancia_absoluta,0.7744465528003963,0.76,0.79,boa
+principal,cor_R_media,colorimétrico,2594,consistencia,0.7771992103657113,0.77,0.79,boa
+jaccard_05,cor_R_media,colorimétrico,1306,concordancia_absoluta,0.9228960194535164,0.9,0.94,excelente
+jaccard_05,cor_R_media,colorimétrico,1306,consistencia,0.9411675171524937,0.94,0.95,excelente
+principal,cor_R_desvio,colorimétrico,2594,concordancia_absoluta,0.6386127472534756,0.5,0.73,moderada
+principal,cor_R_desvio,colorimétrico,2594,consistencia,0.7731195467027395,0.76,0.78,boa
+jaccard_05,cor_R_desvio,colorimétrico,1306,concordancia_absoluta,0.7232015968099431,0.51,0.83,moderada a boa
+jaccard_05,cor_R_desvio,colorimétrico,1306,consistencia,0.9021845084333058,0.89,0.91,boa a excelente
+principal,cor_R_assimetria,colorimétrico,2594,concordancia_absoluta,0.439121205894078,0.42,0.46,fraca
+principal,cor_R_assimetria,colorimétrico,2594,consistencia,0.4456243691199772,0.43,0.46,fraca
+jaccard_05,cor_R_assimetria,colorimétrico,1306,concordancia_absoluta,0.6432322511851235,0.62,0.67,moderada
+jaccard_05,cor_R_assimetria,colorimétrico,1306,consistencia,0.6590605336624353,0.64,0.68,moderada
+principal,cor_R_curtose,colorimétrico,2594,concordancia_absoluta,0.31585844076747943,0.3,0.33,fraca
+principal,cor_R_curtose,colorimétrico,2594,consistencia,0.323219626970355,0.31,0.34,fraca
+jaccard_05,cor_R_curtose,colorimétrico,1306,concordancia_absoluta,0.3115461424249197,0.29,0.34,fraca
+jaccard_05,cor_R_curtose,colorimétrico,1306,consistencia,0.3211416196956042,0.3,0.34,fraca
+principal,cor_G_media,colorimétrico,2594,concordancia_absoluta,0.7838136100273098,0.77,0.79,boa
+principal,cor_G_media,colorimétrico,2594,consistencia,0.7880895354463755,0.78,0.8,boa
+jaccard_05,cor_G_media,colorimétrico,1306,concordancia_absoluta,0.9134351265818068,0.89,0.93,boa a excelente
+jaccard_05,cor_G_media,colorimétrico,1306,consistencia,0.9315676439478086,0.93,0.94,excelente
+principal,cor_G_desvio,colorimétrico,2594,concordancia_absoluta,0.5509336069214634,0.39,0.67,fraca a moderada
+principal,cor_G_desvio,colorimétrico,2594,consistencia,0.7231932570728813,0.71,0.74,moderada
+jaccard_05,cor_G_desvio,colorimétrico,1306,concordancia_absoluta,0.5840899979630316,0.36,0.72,fraca a moderada
+jaccard_05,cor_G_desvio,colorimétrico,1306,consistencia,0.8216193997137259,0.81,0.83,boa
+principal,cor_G_assimetria,colorimétrico,2594,concordancia_absoluta,0.45196604220577125,0.44,0.47,fraca
+principal,cor_G_assimetria,colorimétrico,2594,consistencia,0.4528271063010547,0.44,0.47,fraca
+jaccard_05,cor_G_assimetria,colorimétrico,1306,concordancia_absoluta,0.8305663656058105,0.82,0.84,boa
+jaccard_05,cor_G_assimetria,colorimétrico,1306,consistencia,0.8391089435791986,0.83,0.85,boa
+principal,cor_G_curtose,colorimétrico,2594,concordancia_absoluta,0.3557253497862707,0.34,0.37,fraca
+principal,cor_G_curtose,colorimétrico,2594,consistencia,0.3601688846155828,0.34,0.38,fraca
+jaccard_05,cor_G_curtose,colorimétrico,1306,concordancia_absoluta,0.5863942148265666,0.56,0.61,moderada
+jaccard_05,cor_G_curtose,colorimétrico,1306,consistencia,0.6015213187890582,0.58,0.62,moderada
+principal,cor_B_media,colorimétrico,2594,concordancia_absoluta,0.7899019373003028,0.78,0.8,boa
+principal,cor_B_media,colorimétrico,2594,consistencia,0.7949359823247721,0.79,0.8,boa
+jaccard_05,cor_B_media,colorimétrico,1306,concordancia_absoluta,0.9059131838948455,0.88,0.92,boa a excelente
+jaccard_05,cor_B_media,colorimétrico,1306,consistencia,0.9243326737617181,0.92,0.93,excelente
+principal,cor_B_desvio,colorimétrico,2594,concordancia_absoluta,0.5157073911997758,0.37,0.63,fraca a moderada
+principal,cor_B_desvio,colorimétrico,2594,consistencia,0.677587673371204,0.66,0.69,moderada
+jaccard_05,cor_B_desvio,colorimétrico,1306,concordancia_absoluta,0.5816773351618553,0.37,0.72,fraca a moderada
+jaccard_05,cor_B_desvio,colorimétrico,1306,consistencia,0.8102428117941123,0.8,0.82,boa
+principal,cor_B_assimetria,colorimétrico,2594,concordancia_absoluta,0.533138188312776,0.52,0.55,moderada
+principal,cor_B_assimetria,colorimétrico,2594,consistencia,0.5356583835912737,0.52,0.55,moderada
+jaccard_05,cor_B_assimetria,colorimétrico,1306,concordancia_absoluta,0.811869435716801,0.79,0.83,boa
+jaccard_05,cor_B_assimetria,colorimétrico,1306,consistencia,0.8292777582680153,0.82,0.84,boa
+principal,cor_B_curtose,colorimétrico,2594,concordancia_absoluta,0.4130691654523816,0.4,0.43,fraca
+principal,cor_B_curtose,colorimétrico,2594,consistencia,0.41942840314758717,0.4,0.44,fraca
+jaccard_05,cor_B_curtose,colorimétrico,1306,concordancia_absoluta,0.6666757201179606,0.64,0.69,moderada
+jaccard_05,cor_B_curtose,colorimétrico,1306,consistencia,0.6860992919406864,0.67,0.7,moderada
+principal,cor_S_media,colorimétrico,2594,concordancia_absoluta,0.8383101443960624,0.83,0.85,boa
+principal,cor_S_media,colorimétrico,2594,consistencia,0.8446937595141418,0.84,0.85,boa
+jaccard_05,cor_S_media,colorimétrico,1306,concordancia_absoluta,0.9470012133591632,0.93,0.96,excelente
+jaccard_05,cor_S_media,colorimétrico,1306,consistencia,0.9562943112510885,0.95,0.96,excelente
+principal,cor_S_desvio,colorimétrico,2594,concordancia_absoluta,0.5885571018899306,0.46,0.68,fraca a moderada
+principal,cor_S_desvio,colorimétrico,2594,consistencia,0.7141053264765892,0.7,0.73,moderada
+jaccard_05,cor_S_desvio,colorimétrico,1306,concordancia_absoluta,0.621878308870279,0.42,0.75,fraca a boa
+jaccard_05,cor_S_desvio,colorimétrico,1306,consistencia,0.8188284070701415,0.81,0.83,boa
+principal,cor_S_assimetria,colorimétrico,2594,concordancia_absoluta,0.5989489324872856,0.54,0.65,moderada
+principal,cor_S_assimetria,colorimétrico,2594,consistencia,0.653355559606656,0.64,0.67,moderada
+jaccard_05,cor_S_assimetria,colorimétrico,1306,concordancia_absoluta,0.6170569005700017,0.45,0.73,fraca a moderada
+jaccard_05,cor_S_assimetria,colorimétrico,1306,consistencia,0.7830079946735621,0.77,0.8,boa
+principal,cor_S_curtose,colorimétrico,2594,concordancia_absoluta,0.43022919919208225,0.41,0.45,fraca
+principal,cor_S_curtose,colorimétrico,2594,consistencia,0.4324558141266362,0.42,0.45,fraca
+jaccard_05,cor_S_curtose,colorimétrico,1306,concordancia_absoluta,0.6882800343254827,0.67,0.71,moderada
+jaccard_05,cor_S_curtose,colorimétrico,1306,consistencia,0.7008820004171386,0.68,0.72,moderada
+principal,cor_V_media,colorimétrico,2594,concordancia_absoluta,0.7713962759070874,0.76,0.78,boa
+principal,cor_V_media,colorimétrico,2594,consistencia,0.7751928876406167,0.76,0.79,boa
+jaccard_05,cor_V_media,colorimétrico,1306,concordancia_absoluta,0.9217049717844568,0.9,0.94,excelente
+jaccard_05,cor_V_media,colorimétrico,1306,consistencia,0.9401040456437862,0.94,0.94,excelente
+principal,cor_V_desvio,colorimétrico,2594,concordancia_absoluta,0.6518136896194521,0.5,0.75,moderada a boa
+principal,cor_V_desvio,colorimétrico,2594,consistencia,0.7944971912865573,0.78,0.8,boa
+jaccard_05,cor_V_desvio,colorimétrico,1306,concordancia_absoluta,0.7213745671159159,0.5,0.83,moderada a boa
+jaccard_05,cor_V_desvio,colorimétrico,1306,consistencia,0.9013379229826673,0.89,0.91,boa a excelente
+principal,cor_V_assimetria,colorimétrico,2594,concordancia_absoluta,0.409170866757097,0.39,0.43,fraca
+principal,cor_V_assimetria,colorimétrico,2594,consistencia,0.41893577789463454,0.4,0.44,fraca
+jaccard_05,cor_V_assimetria,colorimétrico,1306,concordancia_absoluta,0.64439714650099,0.62,0.67,moderada
+jaccard_05,cor_V_assimetria,colorimétrico,1306,consistencia,0.6601994763565064,0.64,0.68,moderada
+principal,cor_V_curtose,colorimétrico,2594,concordancia_absoluta,0.3250755795054334,0.31,0.34,fraca
+principal,cor_V_curtose,colorimétrico,2594,consistencia,0.332569842738038,0.32,0.35,fraca
+jaccard_05,cor_V_curtose,colorimétrico,1306,concordancia_absoluta,0.31020245449708383,0.29,0.33,fraca
+jaccard_05,cor_V_curtose,colorimétrico,1306,consistencia,0.3197308615730123,0.3,0.34,fraca
+principal,cor_L_media,colorimétrico,2594,concordancia_absoluta,0.7605433693613468,0.75,0.77,boa
+principal,cor_L_media,colorimétrico,2594,consistencia,0.764292296105729,0.75,0.78,boa
+jaccard_05,cor_L_media,colorimétrico,1306,concordancia_absoluta,0.9124739164398745,0.89,0.93,boa a excelente
+jaccard_05,cor_L_media,colorimétrico,1306,consistencia,0.931451277354934,0.93,0.94,excelente
+principal,cor_L_desvio,colorimétrico,2594,concordancia_absoluta,0.5763234591379353,0.41,0.69,fraca a moderada
+principal,cor_L_desvio,colorimétrico,2594,consistencia,0.7451974966186806,0.73,0.76,moderada a boa
+jaccard_05,cor_L_desvio,colorimétrico,1306,concordancia_absoluta,0.6187428918956724,0.39,0.75,fraca a boa
+jaccard_05,cor_L_desvio,colorimétrico,1306,consistencia,0.8541060902357388,0.84,0.86,boa
+principal,cor_L_assimetria,colorimétrico,2594,concordancia_absoluta,0.41140705174336023,0.39,0.43,fraca
+principal,cor_L_assimetria,colorimétrico,2594,consistencia,0.41278819754500007,0.4,0.43,fraca
+jaccard_05,cor_L_assimetria,colorimétrico,1306,concordancia_absoluta,0.777302557795911,0.76,0.79,boa
+jaccard_05,cor_L_assimetria,colorimétrico,1306,consistencia,0.7831807194871717,0.77,0.8,boa
+principal,cor_L_curtose,colorimétrico,2594,concordancia_absoluta,0.33891963356043064,0.32,0.36,fraca
+principal,cor_L_curtose,colorimétrico,2594,consistencia,0.3436440665801304,0.33,0.36,fraca
+jaccard_05,cor_L_curtose,colorimétrico,1306,concordancia_absoluta,0.46736792774704733,0.44,0.49,fraca
+jaccard_05,cor_L_curtose,colorimétrico,1306,consistencia,0.47899356039496,0.46,0.5,fraca a moderada
+principal,cor_a_media,colorimétrico,2594,concordancia_absoluta,0.8906919906472652,0.88,0.9,boa a excelente
+principal,cor_a_media,colorimétrico,2594,consistencia,0.8911399247866201,0.89,0.9,boa a excelente
+jaccard_05,cor_a_media,colorimétrico,1306,concordancia_absoluta,0.9952833730131099,0.99,1.0,excelente
+jaccard_05,cor_a_media,colorimétrico,1306,consistencia,0.9955408035054633,1.0,1.0,excelente
+principal,cor_a_desvio,colorimétrico,2594,concordancia_absoluta,0.6983224307510504,0.67,0.72,moderada
+principal,cor_a_desvio,colorimétrico,2594,consistencia,0.7209119593611294,0.71,0.73,moderada
+jaccard_05,cor_a_desvio,colorimétrico,1306,concordancia_absoluta,0.9291128789584164,0.91,0.95,excelente
+jaccard_05,cor_a_desvio,colorimétrico,1306,consistencia,0.9471029966318489,0.94,0.95,excelente
+principal,cor_a_assimetria,colorimétrico,2594,concordancia_absoluta,0.660723024446198,0.65,0.67,moderada
+principal,cor_a_assimetria,colorimétrico,2594,consistencia,0.6620669549641157,0.65,0.68,moderada
+jaccard_05,cor_a_assimetria,colorimétrico,1306,concordancia_absoluta,0.8779233589820916,0.87,0.89,boa
+jaccard_05,cor_a_assimetria,colorimétrico,1306,consistencia,0.8815193737780145,0.87,0.89,boa
+principal,cor_a_curtose,colorimétrico,2594,concordancia_absoluta,0.6070457225353435,0.59,0.62,moderada
+principal,cor_a_curtose,colorimétrico,2594,consistencia,0.6085772510567313,0.59,0.62,moderada
+jaccard_05,cor_a_curtose,colorimétrico,1306,concordancia_absoluta,0.6577505955494741,0.64,0.68,moderada
+jaccard_05,cor_a_curtose,colorimétrico,1306,consistencia,0.6660770576049052,0.65,0.69,moderada
+principal,cor_b_media,colorimétrico,2594,concordancia_absoluta,0.8523216243472989,0.84,0.86,boa
+principal,cor_b_media,colorimétrico,2594,consistencia,0.8533974792942062,0.85,0.86,boa
+jaccard_05,cor_b_media,colorimétrico,1306,concordancia_absoluta,0.9946363549757985,0.99,1.0,excelente
+jaccard_05,cor_b_media,colorimétrico,1306,consistencia,0.99475319304181,0.99,1.0,excelente
+principal,cor_b_desvio,colorimétrico,2594,concordancia_absoluta,0.7135918642754563,0.69,0.74,moderada
+principal,cor_b_desvio,colorimétrico,2594,consistencia,0.7343945913556331,0.72,0.75,moderada a boa
+jaccard_05,cor_b_desvio,colorimétrico,1306,concordancia_absoluta,0.9231571317972166,0.9,0.94,excelente
+jaccard_05,cor_b_desvio,colorimétrico,1306,consistencia,0.943543777169294,0.94,0.95,excelente
+principal,cor_b_assimetria,colorimétrico,2594,concordancia_absoluta,0.6848182645846107,0.67,0.7,moderada
+principal,cor_b_assimetria,colorimétrico,2594,consistencia,0.6892670736866215,0.68,0.7,moderada
+jaccard_05,cor_b_assimetria,colorimétrico,1306,concordancia_absoluta,0.9035989824613411,0.9,0.91,excelente
+jaccard_05,cor_b_assimetria,colorimétrico,1306,consistencia,0.9075174034270781,0.9,0.91,excelente
+principal,cor_b_curtose,colorimétrico,2594,concordancia_absoluta,0.5405113740156535,0.52,0.56,moderada
+principal,cor_b_curtose,colorimétrico,2594,consistencia,0.5423751762898567,0.53,0.56,moderada
+jaccard_05,cor_b_curtose,colorimétrico,1306,concordancia_absoluta,0.7753551951271498,0.76,0.79,boa
+jaccard_05,cor_b_curtose,colorimétrico,1306,consistencia,0.7842921815855168,0.77,0.8,boa
+principal,tex_contraste,textura,2594,concordancia_absoluta,0.16560660000402833,0.13,0.21,fraca
+principal,tex_contraste,textura,2594,consistencia,0.21423730612906366,0.2,0.23,fraca
+jaccard_05,tex_contraste,textura,1306,concordancia_absoluta,0.14801016908208012,0.07,0.23,fraca
+jaccard_05,tex_contraste,textura,1306,consistencia,0.2986322098578263,0.28,0.32,fraca
+principal,tex_correlacao,textura,2594,concordancia_absoluta,0.23786873162236452,0.2,0.27,fraca
+principal,tex_correlacao,textura,2594,consistencia,0.2761170743833527,0.26,0.29,fraca
+jaccard_05,tex_correlacao,textura,1306,concordancia_absoluta,0.25756133687252425,0.14,0.37,fraca
+jaccard_05,tex_correlacao,textura,1306,consistencia,0.44156547036884664,0.42,0.47,fraca
+principal,tex_energia,textura,2594,concordancia_absoluta,0.27455807358944223,0.14,0.4,fraca
+principal,tex_energia,textura,2594,consistencia,0.5136948123975293,0.5,0.53,moderada
+jaccard_05,tex_energia,textura,1306,concordancia_absoluta,0.2926609083594362,0.11,0.46,fraca
+jaccard_05,tex_energia,textura,1306,consistencia,0.7544095688760115,0.74,0.77,moderada a boa
+principal,tex_homogeneidade,textura,2594,concordancia_absoluta,0.0802769587107977,0.02,0.15,fraca
+principal,tex_homogeneidade,textura,2594,consistencia,0.3457536925446556,0.33,0.36,fraca
+jaccard_05,tex_homogeneidade,textura,1306,concordancia_absoluta,0.07565633780787344,0.02,0.15,fraca
+jaccard_05,tex_homogeneidade,textura,1306,consistencia,0.49688706828581014,0.47,0.52,fraca a moderada
+principal,tex_entropia,textura,2594,concordancia_absoluta,0.21668006355223451,0.08,0.36,fraca
+principal,tex_entropia,textura,2594,consistencia,0.5833015065061092,0.57,0.6,moderada
+jaccard_05,tex_entropia,textura,1306,concordancia_absoluta,0.22524881229304902,0.07,0.39,fraca
+jaccard_05,tex_entropia,textura,1306,consistencia,0.7649312697140933,0.75,0.78,boa
