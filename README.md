@@ -108,6 +108,9 @@ python -m src.stats.icc                     # ICC entre configurações (precis�
 python -m src.stats.exatidao                # ICC com o padrão-ouro (exatidão)
 python -m src.stats.figuras                 # gráficos e mapas de calor
 python -m src.stats.figuras_exemplos        # figuras com imagens de exemplo
+python -m src.stats.icc_sem_snakes          # ICC sem o Snakes (8 configurações)
+python -m src.stats.moldura                 # detecção da moldura por versão
+python -m src.stats.icc_moldura             # ICC sem as imagens com moldura diferente
 ```
 
 Para testar rapidamente, os três primeiros pipelines aceitam `--limite 10` (processa só 10 imagens). Todos rodam em paralelo (`--workers N`) e podem ser interrompidos com Ctrl+C e retomados depois.
