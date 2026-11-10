@@ -33,8 +33,9 @@ CORES_FAIXAS = ["#cde2fb", "#6da7ec", "#256abf", "#0d366b"]
 LIMITES = [0, 0.5, 0.75, 0.9, 1.0]
 NOMES_FAIXAS = ["Fraca (< 0,50)", "Moderada (0,50–0,75)",
                 "Boa (0,75–0,90)", "Excelente (≥ 0,90)"]
-COR_ABS, COR_CONS = "#2a78d6", "#eb6834"
-CORES_ALG = {"otsu": "#2a78d6", "kmeans": "#eb6834", "snakes": "#1baf7a"}
+# Paleta do trabalho: azul = ICC; verde = padrão-ouro; laranja = algoritmos
+COR_ABS, COR_CONS = CORES_FAIXAS[3], CORES_FAIXAS[1]
+CORES_ALG = {"otsu": "#f5a26b", "kmeans": "#e0662f", "snakes": "#9c3d12"}
 NOMES_ALG = {"otsu": "Otsu", "kmeans": "K-Means", "snakes": "Snakes"}
 RAMOS = ["sem_tratamento", "dullrazor_bilateral", "clahe",
          "dullrazor_bilateral_clahe"]
